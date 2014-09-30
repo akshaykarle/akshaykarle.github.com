@@ -48,4 +48,4 @@ class WeakEtagMiddleware
 end
 {% endhighlight %}
 
-Adding a middleware which does this seems to work. Now when rails receives the ETag, it doesn't receive a Weak ETag and hence the caching works as expected.
+Adding a middleware which does this seems to work. Now when rails receives the ETag, it doesn't receive a Weak ETag and the ETags match perfectly and the caching works as expected.
