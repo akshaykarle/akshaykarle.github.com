@@ -2,6 +2,7 @@
 layout: post
 title:  "Gotchas with Rails caching and Nginx"
 date:   2014-09-17 22:00:00
+categories: blog
 tags: [rails, caching, nginx, etags]
 ---
 
