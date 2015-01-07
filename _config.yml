@@ -2,34 +2,11 @@
 title: Akshay Karle's blog
 email: akshay.a.karle@gmail.com
 description: "Young developer, linux lover, shaver of yaks."
-logo: # 120x120 px default image used for Twitter summary card
-teaser: default-post-teaser.jpg # 400x250 px default teaser image used in image archive grid
-locale:
-url: akshaykarle.com
+baseurl: ""
+url: "http://akshaykarle.com"
+twitter_username: akshay_karle
+github_username:  akshaykarle
 
-# Jekyll configuration
-
-sass:
-    sass_dir: _sass
-    style: compressed
-permalink: pretty
+# Build settings
 markdown: kramdown
-highlighter: pygments
-gems:
-  - jekyll-sitemap
-
-
-# Site owner
-owner:
-  name: Akshay Karle
-  email: akshay.a.karle@gmail.com
-  twitter: akshay_karle
-  google:
-    ad-client:
-    ad-slot:
-  bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname: akshaykarle
-
-
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.idea", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+permalink: pretty
