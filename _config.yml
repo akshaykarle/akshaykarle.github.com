@@ -10,3 +10,6 @@ github_username:  akshaykarle
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+gems:
+  - jekyll-sitemap
