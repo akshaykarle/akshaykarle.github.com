@@ -1,5 +1,6 @@
 .idea/
 Gemfile.lock
 .bundle/
+**.DS_Store
 
 _site/
