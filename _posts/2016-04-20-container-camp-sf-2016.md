@@ -30,7 +30,7 @@ On my last day in San Francisco, I had the opportunity to attend [Container Camp
 
 ### Container Security
 
-[Thomas Cameron](https://twitter.com/thomasdcameron) from RedHat gave an introduction to container security covering the different aspects of security including cgroups, the different [namespaces](https://lwn.net/Articles/531114/), linux capabilities and SELinux.
+[Thomas Cameron](https://twitter.com/thomasdcameron) from RedHat gave an introduction to container security covering the different aspects of security including [cgroups](https://www.kernel.org/doc/Documentation/cgroup-v1/cgroups.txt), the different [namespaces](https://lwn.net/Articles/531114/), linux [capabilities](http://man7.org/linux/man-pages/man7/capabilities.7.html) and [SELinux](http://selinuxproject.org/).
 
 Cythia Thomas from [@midokura](https://twitter.com/midokura) spoke about container network security and [kuryr](https://github.com/openstack/kuryr) a Docker network plugin for Openstack.
 
